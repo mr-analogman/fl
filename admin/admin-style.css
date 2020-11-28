@@ -1,0 +1,202 @@
+* {
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(72, 91, 134);
+}
+
+.loginForm {
+  padding: 20px;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.ImgTexts {
+  padding: 5px;
+  width: calc(100% - 10px);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.imgText {
+  margin: 5px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow-x: auto;
+}
+
+.img {
+  width: 70%;
+  margin: 5px 0;
+}
+
+.firstText {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+
+.secondText {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(63, 85, 174);
+}
+
+.text {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 100;
+  color: black;
+}
+
+
+.uploadForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+}
+
+
+.passTextField {
+  padding: 12px;
+  width: 200px;
+  background-color: white;
+  border: none;
+}
+
+.blueButtons {
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  background-color: rgb(63, 85, 174);
+  border-radius: 60px;
+  color: white;
+  font-size: 14px;
+  padding: 15px 25px;
+  transition: 0.2s ease background-color;
+}
+
+.blueButtons:hover {
+  cursor: pointer;
+  background-color: rgb(94, 110, 177);
+}
+
+.logoutForm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 10px;
+}
+
+.adminSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: rgb(245, 245, 245);
+  width: 77%;
+  border-radius: 10px;
+}
+
+#statistics {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  overflow-x: auto;
+
+}
+
+.adminStats {
+    overflow-x: scroll;
+}
+
+.chooseDate {
+  display: flex;
+}
+
+.input2 {
+  width: 25px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: inherit;
+  outline: none;
+  text-align: center;
+}
+.input4 {
+  width: 45px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: inherit;
+  outline: none;
+  text-align: center;
+}
+
+#buttonLogout {
+  background-color: rgb(245, 245, 245);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: black;
+  font-size: 14px;
+  padding: 15px 25px;
+  transition: 0.2s ease background-color;
+  text-decoration: none;
+}
+
+#buttonLogout:hover {
+  background-color: rgb(215, 215, 215);
+}
+
+#blueHrefs {
+  background-color: rgb(63, 85, 174);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  padding: 15px 25px;
+  transition: 0.2s ease background-color;
+  text-decoration: none;
+}
+
+#blueHrefs:hover {
+  background-color: rgb(94, 110, 177);
+}
+
+.deleteImgTxtButton {
+  font-size: 10px;
+  margin: 10px 0;
+  border: none;
+  background-color: inherit;
+  text-decoration: underline;
+}
+
+.deleteImgTxtButton:hover {
+  text-decoration: none;
+}
